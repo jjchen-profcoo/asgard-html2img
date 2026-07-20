@@ -1,3 +1,5 @@
+# NEVER push, force push, commit, amend, or otherwise modify git history or remote branches without asking the user first.
+
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
 
