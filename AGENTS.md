@@ -16,3 +16,22 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - **Dev**: pnpm dev (Turbopack)
 - **Build**: pnpm build
 - **Lint**: pnpm lint
+- **Cloudflare Build**: pnpm cf:build
+- **Cloudflare Deploy**: pnpm cf:deploy
+- **Cloudflare Preview**: pnpm cf:preview
+
+# Cloudflare Deployment
+
+Uses @opennextjs/cloudflare (NOT the deprecated @cloudflare/next-on-pages).
+
+Cloudflare Pages build command:
+```
+pnpm cf:build
+```
+
+Output directory: `.open-next`
+
+Build also works as a one-step deploy to Cloudflare Workers:
+```
+pnpm cf:deploy
+```
