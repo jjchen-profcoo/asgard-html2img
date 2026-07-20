@@ -1,4 +1,4 @@
-# NEVER push, force push, commit, amend, or otherwise modify git history or remote branches without asking the user first.
+# NEVER push, force push, commit, amend, or otherwise modify git history or remote branches without asking the user first. Before any push, always verify the commit author is correct (jjchen-profcoo).
 
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
